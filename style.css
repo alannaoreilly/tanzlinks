@@ -98,18 +98,24 @@
       position: relative;
   }
 
+ 
   .nav{
     position: relative;
     text-align: center;
     z-index: 2;
     background-image: url(IMG_1575.jpg) !important;
     background-size: cover;
-      height: auto;
+      height: 100%;
       width: 100%;
       position: absolute;
  
-    }
-      
+  }
+  
+  .container{
+      width:100%;
+      height: auto;
+  }
+        
       
   
 

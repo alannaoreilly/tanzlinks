@@ -1,0 +1,164 @@
+@media only screen and (min-width: 767px) {
+  body{
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Roboto Slab', serif;
+      background-image: url(IMG_6461.jpg);
+      background-size: cover;
+        height: auto;
+        width: 100%;
+        position: flex;
+
+  }
+      
+
+  .nav{
+      position: relative;
+      text-align: center;
+      z-index: 2;
+  }
+
+  header{
+      background-color: rgb(56, 56, 56);
+
+      text-align: center;
+      color: white;
+      padding: 1%;
+      position: relative;
+      
+  }
+
+  h1{
+    margin: 0%;
+    font-size: 3.75vw;
+    
+  }
+
+
+
+  .menu{
+      z-index: 1;
+      justify-content: space-between; 
+      display:block;
+      position: bottom;
+      align-items: center;
+      flex-direction: column; 
+      margin: 5% 15% 0% 15%;
+  }
+      
+
+
+  a{
+      text-decoration: none;
+      font-size: 2.5vw;
+      text-align: center;
+      justify-content: space-between; 
+      border-radius: 25px;
+      color: white ;
+      padding: 5%;
+      height: 100%;
+      display: block;
+      float: center;
+      background: #abcae9;
+      justify-content: space-between;  
+      margin: 0px 0% 7% 0%;
+  }
+
+  a.contact:hover{
+      border: 2px solid #abcae9;
+      color: white;
+      background: none !important;
+      margin: 0px 0px 6% 0% !important;
+  }
+
+  a:hover{
+    border: 2px solid #abcae9;
+    color: white;
+    background: none !important; 
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  
+  body { 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+    background-image: url(IMG_1575.jpg) !important;
+    background-size: cover;
+      height: auto;
+      width: 100%;
+      position: flex;
+      top: 4%
+    }
+  }
+
+
+  }
+    .nav{
+      position: relative;
+      text-align: center;
+      z-index: 2;
+  }
+
+  header{
+      background-color: rgb(56, 56, 56);
+      text-align: center;
+      color: white;
+      padding: 1%;
+      position: relative;
+      
+  }
+
+  h1{
+    margin: 1% 20%;
+    font-size: 8vw !important;
+    
+  }
+
+
+
+  .menu{
+      z-index: 1;
+      justify-content: space-between; 
+      display:block;
+      position: bottom;
+      align-items: center;
+      flex-direction: column; 
+      margin: 8% 12% 0% 12%;
+  }
+      
+
+
+  a{
+      text-decoration: none;
+      font-size: 8vw;
+      text-align: center;
+      justify-content: space-between; 
+      border-radius: 25px;
+      color: white ;
+      padding: 5%;
+      height: 100%;
+      display: block;
+      float: center;
+      background: #abcae9;
+      justify-content: space-between;  
+      margin: 0px 0% 7% 0%;
+  }
+
+  a.contact:hover{
+      border: 2px solid #abcae9;
+      color: white;
+      background: none !important;
+      margin: 0px 0px 6% 0% !important;
+  }
+
+  a:hover{
+    border: 2px solid #abcae9;
+    color: white;
+    background: none !important; 
+  }
+}
+
+
+

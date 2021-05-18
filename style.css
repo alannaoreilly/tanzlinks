@@ -11,6 +11,12 @@
 
   }
       
+  a.arrow{ 
+    margin-left: -90%;
+    font-size: 6vw;
+    text-decoration: none;
+    color: white;
+  }
 
   .nav{
       position: relative;
@@ -20,18 +26,15 @@
 
   header{
       background-color: rgb(56, 56, 56);
-
       text-align: center;
       color: white;
       padding: 1%;
-      position: relative;
-      
+      position: relative;  
   }
 
   h1{
     margin: 0%;
     font-size: 3.75vw;
-    
   }
 
 
@@ -48,7 +51,7 @@
       
 
 
-  a{
+  .menu a{
       text-decoration: none;
       font-size: 2.5vw;
       text-align: center;
@@ -86,7 +89,12 @@
     font-family: 'Roboto Slab', serif;
    }
   
-
+   a.arrow{ 
+    margin-left: -90%;
+    font-size: 6vw;
+    text-decoration: none;
+    color: white;
+  }
     
   
 
@@ -139,7 +147,7 @@
       
 
 
-  a{
+  .menu a{
       text-decoration: none;
       font-size: 7.5vw;
       text-align: center;

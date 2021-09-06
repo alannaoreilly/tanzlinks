@@ -67,7 +67,7 @@ html{
       font-size: 2.5vw;
       /* text-align: center; */
       /* justify-content: space-between; */
-      border-radius: 25px;
+      border-radius: 2vw;
       color: white;
       padding: 2% 8%;
       /* height: 50%; */
@@ -161,7 +161,7 @@ html{
       font-size: 7.5vw;
       text-align: center;
       justify-content: space-between; 
-      border-radius: 25px;
+      border-radius: 2vw;
       color: white ;
       padding: 5%;
       height: 100%;

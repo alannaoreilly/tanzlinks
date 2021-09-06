@@ -1,3 +1,9 @@
+html{
+  height:100%;
+  width:100%;
+}
+
+
 @media only screen and (min-width: 767px) {
   body{
       margin: 0px;
@@ -5,10 +11,9 @@
       font-family: 'Roboto Slab', serif;
       background-image: url(IMG_6461.jpg);
       background-size: cover;
-        height: auto;
-        width: 100%;
-        position: flex;
-
+      /* height: auto; */
+      /* width: 100%; */
+      position: flex;
   }
       
   a.arrow{ 
@@ -19,7 +24,7 @@
   }
 
   .nav{
-      position: relative;
+      /* position: relative; */
       text-align: center;
       z-index: 2;
   }
@@ -33,38 +38,44 @@
 
   h1{
     margin: 0%;
-    font-size: 3.75vw;
+    font-size: 3vw;
      padding: 1%;
   }
 
 
+  ul{
+    list-style: none;
+
+  }
+  li{
+    margin-bottom:10vh;
+  }
 
   .menu{
-      z-index: 1;
-      justify-content: space-between; 
-      display:block;
+      /* z-index: 1; */
+      /* justify-content: space-between; */
+      /* display:block; */
       position: bottom;
-      align-items: center;
-      flex-direction: column; 
-      margin: 5% 15% 0% 15%;
+      margin-top:10vh;
   }
       
 
 
   .menu a{
       text-decoration: none;
+      width: 100%;
       font-size: 2.5vw;
-      text-align: center;
-      justify-content: space-between; 
+      /* text-align: center; */
+      /* justify-content: space-between; */
       border-radius: 25px;
-      color: white ;
-      padding: 5%;
-      height: 100%;
-      display: block;
+      color: white;
+      padding: 2% 8%;
+      /* height: 50%; */
+      /* display: block; */
       float: center;
       background: #abcae9;
-      justify-content: space-between;  
-      margin: 0px 0% 7% 0%;
+      /* justify-content: space-between; */
+      /* margin: 0px 0% 7% 0%; */
   }
 
   a.contact:hover{
@@ -172,6 +183,14 @@
     border: 2px solid #abcae9;
     color: white;
     background: none !important; 
+  }
+
+  ul{
+    list-style: none;
+    margin-bottom: 5vh;
+  }
+  li{
+    margin-bottom:10vh;
   }
 }
 

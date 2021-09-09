@@ -45,10 +45,11 @@ html{
 
   ul{
     list-style: none;
+    padding:0px;
 
   }
   li{
-    margin-bottom:10vh;
+    margin-bottom:12vh;
   }
 
   .menu{
@@ -188,10 +189,9 @@ html{
   ul{
     list-style: none;
     margin-bottom: 5vh;
+    padding:0px;
   }
-  li{
-    margin-bottom:12vh;
-  }
+ 
 }
 
 
